@@ -4,7 +4,7 @@ function setup() {
 
 function draw() {
   background(220);
-  ellipse(50,350,45,65);
+  ellipse(mouseX,50,350,45,65);
 
   fill(250,200,200);
   rect(320,300,70,100);
